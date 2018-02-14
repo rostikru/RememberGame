@@ -1,0 +1,27 @@
+{
+  "name": "button-renderer",
+  "version": "1.0.0",
+  "description": "button-renderer",
+  "scripts": {
+    "lint": "eslint src",
+    "start": "node server.js"
+  },
+  "author": "hegot",
+  "devDependencies": {
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "eslint": "^3.19.0",
+    "eslint-plugin-react": "^6.10.3",
+    "webpack": "^2.4.1",
+    "webpack-dev-server": "^2.4.4"
+  },
+  "dependencies": {
+    "babel-loader": "^7.0.0",
+    "react": "^15.5.4",
+    "react-dom": "^15.5.4"
+  },
+  "main": "server.js"
+}
