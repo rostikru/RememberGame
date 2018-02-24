@@ -3,7 +3,6 @@
   "version": "1.0.0",
   "description": "button-renderer",
   "scripts": {
-    "lint": "eslint src",
     "start": "node server.js"
   },
   "author": "hegot",
@@ -20,6 +19,7 @@
   },
   "dependencies": {
     "babel-loader": "^7.0.0",
+    "prop-types": "^15.6.0",
     "react": "^15.5.4",
     "react-dom": "^15.5.4"
   },

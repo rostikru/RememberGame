@@ -4,13 +4,13 @@ var webpack = require('webpack');
 module.exports = {
   devtool: 'eval',
   entry: [
-    'webpack-dev-server/client?http://localhost:3000',
-    './src/index.jsx'
+    'webpack-dev-server/client?http://localhost:8000',
+    './src/index.js'
   ],
   output: {
     path: path.join(__dirname, 'dist'),
     filename: 'bundle.js',
-    publicPath: '/build/'
+    publicPath: '/dist/'
   },
   module: {
     loaders: [
