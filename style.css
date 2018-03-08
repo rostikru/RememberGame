@@ -1,0 +1,33 @@
+.card{
+  height: 50px;
+    width: 50px;
+    border: 1px solid grey;
+      text-align: center;
+    
+}
+card span{
+   line-height:  50px;
+  
+    
+}
+.imgbg{
+     height: 50px;
+    width: 50px;
+    
+}
+.card.hidden{
+ 
+ 
+    border: 0px solid grey;
+    
+    
+}
+
+.card img{
+    height: 50px;
+    width: 50px;
+}
+
+.card.hidden img{
+    display:none;
+}
